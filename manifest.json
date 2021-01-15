@@ -1,7 +1,14 @@
 {
     "name": "Absent, Excused",
-    "version": "1.0",
-    "description": "Adds absent, excused update all function",
+    "version": "1.1",
+    "description": "Adds Absent, Excused update all dropdown function for attendance.",
+    "browser_action": {
+        "default_icon": "images/penguinicon32.png"
+    },
+    "icons": {
+        "32": "images/penguinicon32.png",
+        "128": "images/penguinicon128.png"
+    },
     "manifest_version": 2,
     "background": {
         "scripts": [

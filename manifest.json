@@ -1,0 +1,34 @@
+{
+    "name": "Absent, Excused",
+    "version": "1.0",
+    "description": "Adds absent, excused update all function",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "attendance.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://wss.uwinnipeg.ca/*"
+            ],
+            "js": [
+                "attendance.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": {
+        "48": "penguin48.png",
+        "128": "penguin128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "penguin48.png"
+        }
+    }
+}

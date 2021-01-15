@@ -21,11 +21,5 @@
     ],
     "permissions": [
         "activeTab"
-    ],
-
-    "browser_action": {
-        "default_icon": {
-            "16": "penguin48.png"
-        }
-    }
+    ]
 }
